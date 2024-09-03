@@ -1,8 +1,6 @@
 import { FloatingNavbar } from "@/components/FloatingNavbar"
 import { FloatingDock } from "@/components/ui/floating-dock"
-import Navbar from "@/components/ui/Navbar"
 import Sidebar from "@/components/ui/Sidebar"
-
 import Image from "next/image"
 
 const HomeLayout = ({children}: {children: React.ReactNode}) => {
