@@ -12,7 +12,7 @@ const HomeLayout = ({children}: {children: React.ReactNode}) => {
             <div className="flex">
                 
                 
-                <section className="flex min-h-screen flex-1 flex-col h-full overflow-hidden">
+                <section className="flex min-h-screen flex-1 flex-col overflow-hidden">
                     <div className="w-full">
                         {children}
                     </div>

@@ -29,9 +29,20 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+
 import Loader from './Loader';
 import EndCallButton from './EndCallButton';
 import { cn } from '@/lib/utils';
+import { IconLanguageHiragana } from '@tabler/icons-react';
+import SpeechTranslation from './Translation';
 
 type CallLayoutType = 'grid' | 'speaker-left' | 'speaker-right';
 
@@ -112,7 +123,8 @@ const MeetingRoom = () => {
             </SheetHeader>
           </SheetContent>
         </Sheet>
-
+        <SpeechTranslation/>
+        
         <CallStatsButton />
         <button onClick={() => setShowParticipants((prev) => !prev)}>
           <div className=" cursor-pointer rounded-2xl bg-[#19232d] px-4 py-2 hover:bg-[#4c535b]  ">

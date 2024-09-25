@@ -15,7 +15,7 @@ export function Hero() {
         
       </p>
       <MeetingTypeList/>
-      <FloatingNavbar/>
+      {/* <FloatingNavbar/> */}
     </WavyBackground>
   );
 }
