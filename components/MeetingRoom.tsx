@@ -42,7 +42,7 @@ import Loader from './Loader';
 import EndCallButton from './EndCallButton';
 import { cn } from '@/lib/utils';
 import { IconLanguageHiragana } from '@tabler/icons-react';
-import SpeechTranslation from './Translation';
+
 
 type CallLayoutType = 'grid' | 'speaker-left' | 'speaker-right';
 
