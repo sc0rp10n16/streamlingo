@@ -123,7 +123,7 @@ const MeetingRoom = () => {
             </SheetHeader>
           </SheetContent>
         </Sheet>
-        <SpeechTranslation/>
+        {/* <SpeechTranslation/> */}
         
         <CallStatsButton />
         <button onClick={() => setShowParticipants((prev) => !prev)}>
